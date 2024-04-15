@@ -1,0 +1,43 @@
+body {
+  font-family: "Sedan", serif; /* Setting the font family for the entire body */
+  }
+  /* Styling for the main container */
+  .container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  /* Styling for each book*/
+  .book {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+  }
+  .book img {
+    max-width: 100px;
+    margin-right: 20px;
+  }
+  /* Styling for book details */
+  .book-details {
+    flex-grow: 1;
+  }
+  /* Styling for book title */
+  .book-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .book-authors {
+    color: #666;
+  }
+  .studentInfo {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold; /* Making the text bold */
+    background-color: azure;
+  }
+  
